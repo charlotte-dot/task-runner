@@ -1,11 +1,19 @@
 /* Global */
 
+.navbar-brand {
+  font-size: 75px;
+  padding-bottom: 10px;
+  font-family: 'The Nautigal', cursive;
+  color: #fbc531;
+}
+
+nav div a ul li {
+  list-style-type: none;
+}
+
 body {
     margin: 0px;
-    font-size: 16px;
     line-height: 1.7;
-    font-family: $font-text;
-    color: $color-text2;
 }
 
 .container {
@@ -18,27 +26,15 @@ section {
     padding: 96 0px;
 }
 
-/* Navigation */
-
-nav div ul li {
-  list-style-type: none;
-}
-
-.container-fluid h4 {
-   font-size: 75px;
-   padding-bottom: 10px;
-   font-family: 'The Nautigal', cursive;
-   color: #fbc531;
-}
-
 i {
   color: #fbc531;
 }
 /*Header*/
 
-header.splash-inner img {
+header.splash {
     height: 100%;
     object-fit: cover;
+    background-image: url('https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
 }
 
 .splash-inner {
@@ -60,10 +56,6 @@ header.splash-inner img {
     font-size: 16px;
 }
 
-.page-title span {
-    color: $color-text2;
-}
-
 /*Btn*/
 
 .btn {
@@ -72,7 +64,6 @@ header.splash-inner img {
     margin: 24px auto 0 auto;
     padding: 16px;
     border-radius: 5px;
-    font-family: $color-text1;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
@@ -81,60 +72,6 @@ header.splash-inner img {
     border-style: solid;
     background-position: 100% 0;
     background-size: 300%;
-    transition: $transition;
-}
-
-.btn-one {
-   border-color: $color-text1;
-   color: $color-text1;
-   background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
-}
-
-.btn:hover {
-    background-position: 0 100%;
-    color: $color-one;
-    transition: $transition;
-
-}
-
-.btn-two {
-    color: $color-two;
-    border-color: $color-two;
-    background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
-}
-
-.btn-three {
-    color: $color-three;
-    border-color: $color-three;
-    background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
-}
-
-.btn-four {
-    color: $color-one;
-    border-color: $color-one;
-    background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
-}
-
-/*Services*/
-
-.services {
-    background-color: #fff;
-    margin: 96px 0;
-}
-
-.title {
-    font-size: 48px;
-    margin: 0 0 72px 0;
-}
-
-.wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.wrapper p:first-of-type {
-    font-weight: bold;
 }
 
 .wrapper h3 {
@@ -142,108 +79,6 @@ header.splash-inner img {
     margin: 0 0 12px 0;
 }
 
-.wrapper h3 a {
-    text-decoration: none;
-}
-
-.box-one {
-    position: relative;
-    flex: 0 0 33.333%;
-    width: 300px;
-}
-
-.number {
-    font-family: $text-numbers;
-    opacity: 0.3;
-    color: $color-two;
-    position: absolute;
-    font-size: 144px;
-    line-height: 1;
-}
-
-/*Our-work*/
-
-.box-two {
-    flex: 0 0 50%;
-    position: relative;
-    margin-bottom: 96px;
-    display: flex;
-}
-
-.work-image {
-    margin: 0 6px;
-    flex: 0 0 50%;
-}
-
-.work-image img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-
-.work-description {
-    /*padding: 0 0 0 55%;*/
-    text-align: left;
-    flex: 0 0 50%;
-}
-
-.work-description a {
-    color: $color-text2;
-}
-
-.btn-five {
-    border: none;
-    color: $color-one;
-}
-
-/* Contact us*/
-
-.contact-title {
-    font-size: 48px;
-    margin: 0 0 72px 0;
-    color: $color-text1;
-    }
-
-.contact {
-    background: $color-one;
-    padding: 100px;
-    display: flex;
-    flex: 0 0 50%;
-}
-
-.contact .container {
-    width: 100%;
-}
-
-.form-input-container input {
-    width: 100%;
-    border: none;
-    background: $color-one;
-    border-bottom: 3px solid;
-    color: $color-text1;
-}
-
-.submit {
-    display: inline-block;
-    min-width: 100px;
-    margin: 24px auto 0 auto;
-    padding: 12px;
-    border-radius: 5px;
-    color: $color-text1;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border-width: 2px;
-    border-style: solid;
-    border-color: $color-text1;
-}
-
-.form-text {
-    color: $color-text1;
-    padding: 6 6px;
-
-}
 
 /*Social media*/
 
