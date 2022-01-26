@@ -1,130 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>My first website</title>
-      <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-      <link rel="stylesheet" href="./vendor/bootstrap-grid.css">
-      <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header class="splash">
-        <nav class="navbar navbar-expand-md fixed-top">
-            <div class="container-fluid justify-content space-between">
-                <a class="navbar-brand text-warning" href="#">Golden</a>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="splash-inner">
-            <h1 class="page-title">Welcome to our studio</h1>
-            <h2 class="page-subtitle">IT'S NICE TO MEET YOU</h2>
-            <a href="#" class="btn btn-warning">TELL ME MORE</a>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first website</title>
+  <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <link rel="stylesheet" href="./vendor/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="splash justify-content-center">
+    <nav class="navbar navbar-expand-md fixed-top">
+      <a class="navbar-brand text-warning" href="#">Golden</a>
+      <div class="collapse navbar-collapse justify-content-end col-12">
+        <ul class="navbar-nav">
+          <li>
+            <a class="nav-link col-md-4" href="#">HOME</a>
+          </li>
+          <li>
+            <a class="nav-link col-md-4" href="#">SERVICES</a>
+          </li>
+          <li>
+            <a class="nav-link col-md-4" href="#">PORTFOLIO</a>
+          </li>
+          <li>
+            <a class="nav-link col-md-4" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="splash-inner">
+      <h1 class="page-title justify-content-center">Welcome to our studio</h1>
+      <h2 class="page-subtitle">IT'S NICE TO MEET YOU</h2>
+      <a href="#" class="btn btn-warning justify-content-center">TELL ME MORE</a>
+    </div>
+  </header>
+  <section class="services">
+    <div class="container">
+      <h2 class="title justify-content-center">SERVICES</h2>
+      <h5 class="font-italic">Proin iaculis purus consequat sem cure.</h5>
+      <div class="wrapper">
+        <div class="box col-12 col-md-4">
+          <i class="fas fa-shopping-basket"></i>
+          <h3 class="box-title">E-commerce</h3>
+          <p>
+            Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br>
+            Praesent commodo massa malesuada <br>libero luctus tincidunt. <br>
+          </p>
         </div>
-    </header>
-    <section class="services">
-        <div class="container">
-            <h2 class="title">SERVICES</h2>
-            <h5>Proin iaculis purus consequat sem cure.</h5>
-			<div class="wrapper">
-			    <div class="box col-12 col-md-4">
-			        <i class="fas fa-shopping-basket"></i>
-			        <h3 class="box-title">E-commerce</h3>
-				    <p>
-                    Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br>
-                    Praesent commodo massa malesuada <br>libero luctus tincidunt. <br>
-                    </p>
-				</div>
-				<div class="box col-4">
-			        <i class="fas fa-laptop-code"></i>
-			        <h3 class="box-title">Responsive Web</h3>
-				    <p>
-                    Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br>
-                    Praesent commodo massa malesuada <br>libero luctus tincidunt. <br>
-                    </p>
-				</div>
-				<div class="box col-4">
-			        <i class="fas fa-lock"></i>
-			        <h3 class="box-title">Web security</h3>
-				    <p>
-                    Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br>
-                    Praesent commodo massa malesuada <br>libero luctus tincidunt. <br>
-                    </p>
-				</div>
-			</div>
-		</div>
-	</section>
-    <section class="our-portfolio">
-        <div class="container">
-            <h2 class="title">OUR PORTFOLIO</h2>
-            <h5>Proin iaculis purus consequat sem cure.</h5>
-            <div class="row">
-                <div class="wrapper col-sm-6 col-lg-4">
-                  <div class="card d-flex justify-content-center align-items-center">
-                    <div class="card-image"><img alt="test" src="https://i.postimg.cc/wjmzXK88/4.jpg"></div>
-                    <div class="card-body">
-                    <h5>Phasellus rhoncus</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="wrapper col-sm-6 col-lg-4">
-                  <div class="card d-flex justify-content-center align-items-center">
-                    <div class="card-image"><img alt="test" src="https://i.postimg.cc/gkrm0Xg0/6.jpg"></div>
-                    <div class="card-body">
-                      <h5>Sed tincidunt</h5>
-                      </div>
-                  </div>
-                </div>
-                <div class="wrapper col-sm-6 col-lg-4">
-                  <div class="card d-flex justify-content-center align-items-center">
-                    <div class="card-image"><img alt="test" src="https://i.postimg.cc/mZmTRNNq/7.jpg"></div>
-                    <div class="card-body">
-                      <h5>Suspendisse</h5>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="wrapper col-sm-6 col-lg-4">
-                  <div class="card d-flex justify-content-center align-items-center">
-                    <div class="card-image"><img alt="test" src="https://images.pexels.com/photos/6858599/pexels-photo-6858599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>
-                    <div class="card-body">
-                    <h5>Phasellus rhoncus</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="wrapper col-sm-6 col-lg-4">
-                  <div class="card d-flex justify-content-center align-items-center">
-                    <div class="card-image"><img alt="test" src="https://images.pexels.com/photos/1164975/pexels-photo-1164975.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>
-                    <div class="card-body">
-                      <h5>Sed tincidunt</h5>
-                      </div>
-                  </div>
-                </div>
-                <div class="wrapper col-sm-6 col-lg-4">
-                  <div class="card d-flex justify-content-center align-items-center">
-                    <div class="card-image"><img alt="test" src="https://images.pexels.com/photos/2444403/pexels-photo-2444403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>
-                    <div class="card-body">
-                      <h5>Suspendisse</h5>
-                      </div>
-                  </div>
-                </div>
-              </div>
+        <div class="box col-4">
+          <i class="fas fa-laptop-code"></i>
+          <h3 class="box-title">Responsive Web</h3>
+          <p>
+            Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br>
+            Praesent commodo massa malesuada <br>libero luctus tincidunt. <br>
+          </p>
+        </div>
+        <div class="box col-4">
+          <i class="fas fa-lock"></i>
+          <h3 class="box-title">Web security</h3>
+          <p>
+            Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br>
+            Praesent commodo massa malesuada <br>libero luctus tincidunt. <br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="our-portfolio">
+    <div class="container">
+      <h2 class="title">OUR PORTFOLIO</h2>
+      <h5>Proin iaculis purus consequat sem cure.</h5>
+      <div class="row">
+        <div class="wrapper col-sm-6 col-lg-4">
+          <div class="card d-flex justify-content-center align-items-center">
+            <div class="card-image"><img alt="test" src="https://i.postimg.cc/wjmzXK88/4.jpg"></div>
+            <div class="card-body">
+              <h5>Phasellus rhoncus</h5>
             </div>
-     </section>
-     <footer class="media justify-content space-between">
-         <div class="copyright">© Copyright 2014 FreebiesXpress.com</div>
-         <ul class="media_icons">
-            <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
-            <li><a href="#"><i class="fab fa-behance"></i>Behance</a></li>
-         </ul>
-     </footer>
-  </body>
+          </div>
+        </div>
+        <div class="wrapper col-sm-6 col-lg-4">
+          <div class="card d-flex justify-content-center align-items-center">
+            <div class="card-image"><img alt="test" src="https://i.postimg.cc/gkrm0Xg0/6.jpg"></div>
+            <div class="card-body">
+              <h5>Sed tincidunt</h5>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper col-sm-6 col-lg-4">
+          <div class="card d-flex justify-content-center align-items-center">
+            <div class="card-image"><img alt="test" src="https://i.postimg.cc/mZmTRNNq/7.jpg"></div>
+            <div class="card-body">
+              <h5>Suspendisse</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="wrapper col-sm-6 col-lg-4">
+          <div class="card d-flex justify-content-center align-items-center">
+            <div class="card-image"><img alt="test"
+                src="https://images.pexels.com/photos/6858599/pexels-photo-6858599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+            </div>
+            <div class="card-body">
+              <h5>Phasellus rhoncus</h5>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper col-sm-6 col-lg-4">
+          <div class="card d-flex justify-content-center align-items-center">
+            <div class="card-image"><img alt="test"
+                src="https://images.pexels.com/photos/1164975/pexels-photo-1164975.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+            </div>
+            <div class="card-body">
+              <h5>Sed tincidunt</h5>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper col-sm-6 col-lg-4">
+          <div class="card d-flex justify-content-center align-items-center">
+            <div class="card-image"><img alt="test"
+                src="https://images.pexels.com/photos/2444403/pexels-photo-2444403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+            </div>
+            <div class="card-body">
+              <h5>Suspendisse</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="media justify-content space-between">
+    <div class="copyright">© Copyright 2014 FreebiesXpress.com</div>
+    <ul class="media_icons">
+      <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+      <li><a href="#"><i class="fab fa-behance"></i>Behance</a></li>
+    </ul>
+  </footer>
+</body>
 </html>
