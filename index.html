@@ -7,12 +7,13 @@
   <title>My first website</title>
   <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="./vendor/bootstrap-grid.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="splash justify-content-center">
-    <nav class="navbar navbar-expand-md fixed-top">
+  <header class="splash">
+    <nav class="navbar navbar-expand-md">
       <a class="navbar-brand text-warning" href="#">Golden</a>
       <div class="collapse navbar-collapse justify-content-end col-12">
         <ul class="navbar-nav">
@@ -32,36 +33,36 @@
       </div>
     </nav>
     <div class="splash-inner">
-      <h1 class="page-title justify-content-center">Welcome to our studio</h1>
-      <h2 class="page-subtitle">IT'S NICE TO MEET YOU</h2>
-      <a href="#" class="btn btn-warning justify-content-center">TELL ME MORE</a>
+      <h1 class="page-title d-flex">Welcome to our studio</h1>
+      <h2 class="page-subtitle d-flex">IT'S NICE TO MEET YOU</h2>
+      <a href="#" class="btn btn-warning row d-flex col-md-2 btn-center justify-content-center align-content-center">TELL ME MORE</a>
     </div>
   </header>
   <section class="services">
     <div class="container">
-      <h2 class="title justify-content-center">SERVICES</h2>
-      <h5 class="font-italic">Proin iaculis purus consequat sem cure.</h5>
-      <div class="wrapper">
+      <h2 class="title justify-content-center d-flex">SERVICES</h2>
+      <h5 class="font-italic justify-content-center d-flex">Proin iaculis purus consequat sem cure.</h5>
+      <div class="wrapper d-flex">
         <div class="box col-12 col-md-4">
-          <i class="fas fa-shopping-basket"></i>
+          <i class="fas fa-shopping-basket col-12 col-md-4 justify-content-center"></i>
           <h3 class="box-title">E-commerce</h3>
-          <p>
+          <p class="text-justify">
             Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br>
             Praesent commodo massa malesuada <br>libero luctus tincidunt. <br>
           </p>
         </div>
-        <div class="box col-4">
+        <div class="box col-12 col-md-4">
           <i class="fas fa-laptop-code"></i>
           <h3 class="box-title">Responsive Web</h3>
-          <p>
+          <p class="text-justify">
             Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br>
             Praesent commodo massa malesuada <br>libero luctus tincidunt. <br>
           </p>
         </div>
-        <div class="box col-4">
+        <div class="box col-12 col-md-4">
           <i class="fas fa-lock"></i>
           <h3 class="box-title">Web security</h3>
-          <p>
+          <p class="text-justify">
             Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br>
             Praesent commodo massa malesuada <br>libero luctus tincidunt. <br>
           </p>
@@ -71,12 +72,12 @@
   </section>
   <section class="our-portfolio">
     <div class="container">
-      <h2 class="title">OUR PORTFOLIO</h2>
-      <h5>Proin iaculis purus consequat sem cure.</h5>
+      <h2 class="title d-flex justify-content-center">OUR PORTFOLIO</h2>
+      <h5 class="font-italic justify-content-center d-flex">Proin iaculis purus consequat sem cure.</h5>
       <div class="row">
         <div class="wrapper col-sm-6 col-lg-4">
           <div class="card d-flex justify-content-center align-items-center">
-            <div class="card-image"><img alt="test" src="https://i.postimg.cc/wjmzXK88/4.jpg"></div>
+            <div class="card-image"><img alt="test" src="https://i.postimg.cc/mtXhnVMF/pexels-artur-roman-534362.jpg"></div>
             <div class="card-body">
               <h5>Phasellus rhoncus</h5>
             </div>
@@ -84,7 +85,7 @@
         </div>
         <div class="wrapper col-sm-6 col-lg-4">
           <div class="card d-flex justify-content-center align-items-center">
-            <div class="card-image"><img alt="test" src="https://i.postimg.cc/gkrm0Xg0/6.jpg"></div>
+            <div class="card-image"><img alt="test" src="https://i.postimg.cc/ct1498Lm/pexels-daria-shevtsova-1070981.jpg"></div>
             <div class="card-body">
               <h5>Sed tincidunt</h5>
             </div>
@@ -92,7 +93,7 @@
         </div>
         <div class="wrapper col-sm-6 col-lg-4">
           <div class="card d-flex justify-content-center align-items-center">
-            <div class="card-image"><img alt="test" src="https://i.postimg.cc/mZmTRNNq/7.jpg"></div>
+            <div class="card-image"><img alt="test" src="https://i.postimg.cc/R6B0tYr2/pexels-elviss-railijs-bita-ns-1389429.jpg"></div>
             <div class="card-body">
               <h5>Suspendisse</h5>
             </div>
@@ -102,9 +103,7 @@
       <div class="row">
         <div class="wrapper col-sm-6 col-lg-4">
           <div class="card d-flex justify-content-center align-items-center">
-            <div class="card-image"><img alt="test"
-                src="https://images.pexels.com/photos/6858599/pexels-photo-6858599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-            </div>
+            <div class="card-image"><img alt="test" src="https://i.postimg.cc/LqfXnpWz/pexels-moose-photos-1037993.jpg"></div>
             <div class="card-body">
               <h5>Phasellus rhoncus</h5>
             </div>
@@ -112,9 +111,7 @@
         </div>
         <div class="wrapper col-sm-6 col-lg-4">
           <div class="card d-flex justify-content-center align-items-center">
-            <div class="card-image"><img alt="test"
-                src="https://images.pexels.com/photos/1164975/pexels-photo-1164975.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-            </div>
+            <div class="card-image"><img alt="test" src="https://i.postimg.cc/XGkYkg4q/pexels-pixabay-260024.jpg"></div>
             <div class="card-body">
               <h5>Sed tincidunt</h5>
             </div>
@@ -122,9 +119,7 @@
         </div>
         <div class="wrapper col-sm-6 col-lg-4">
           <div class="card d-flex justify-content-center align-items-center">
-            <div class="card-image"><img alt="test"
-                src="https://images.pexels.com/photos/2444403/pexels-photo-2444403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-            </div>
+            <div class="card-image"><img alt="test" src="https://i.postimg.cc/23C68g7Z/pexels-skitterphoto-594388.jpg"></div>
             <div class="card-body">
               <h5>Suspendisse</h5>
             </div>
@@ -135,7 +130,7 @@
   </section>
   <footer class="media justify-content space-between">
     <div class="copyright">© Copyright 2014 FreebiesXpress.com</div>
-    <ul class="media_icons">
+    <ul class="media_icons d-flex">
       <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
       <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
       <li><a href="#"><i class="fab fa-behance"></i>Behance</a></li>

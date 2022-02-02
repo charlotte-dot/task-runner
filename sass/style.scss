@@ -7,6 +7,9 @@
   color: #fbc531;
 }
 
+.nav-link {
+  color: white;  
+}
 .flex-row {
   list-style: none;
   color: white;
@@ -14,30 +17,37 @@
 
 .splash-inner {
     color: white;
+    padding: 50px;
+
 }
 
 .page-title {
-    margin: 0;
+    margin: 50px;
+    padding: 16px;
     font-size: 30px;
+    font-weight: 50;
     font-style: italic;
     line-height: 1.2;
-    font-family: #009432;
     justify-content: center;
 }
 
 .page-subtitle {
-    margin: 24px 0;
-    font-weight: 400;
-    font-size: 60px;
+    margin: 0px 0px 30px;
+    font-weight: 500;
+    font-size: 50px;
     justify-content: center;
 }
 
+.title {
+    padding: 50px 0 0 0;
+    font-weight: 800;
+}
 /*Btn*/
 
 .btn {
-    display: inline-block;
-    min-width: 160px;
-    margin: 24px auto 0 auto;
+    //display: inline-block;
+    //min-width: 160px;
+    margin: auto;
     padding: 16px;
     border-radius: 5px;
     font-size: 16px;
@@ -46,8 +56,8 @@
     cursor: pointer;
     border-width: 2px;
     border-style: solid;
-    background-position: 100% 0;
-    background-size: 300%;
+    //background-position: 100% 0;
+    //background-size: 300%;
 }
 
 body {
@@ -82,7 +92,14 @@ header.splash {
 
 .wrapper h3 {
     font-size: 24px;
-    margin: 0 0 12px 0;
+    margin: 12 0 12px 0;
+    padding: 50px;
+}
+
+/*Portfolio*/
+
+.our-portfolio {
+    background-color: 	#DCDCDC;
 }
 
 
@@ -91,6 +108,7 @@ header.splash {
 
 i {
     font-size: 30px;
+    padding: 50px 0 0 0;
 }
 
 .media ul {
