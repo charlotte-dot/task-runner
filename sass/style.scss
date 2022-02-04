@@ -29,6 +29,7 @@
     font-style: italic;
     line-height: 1.2;
     justify-content: center;
+    text-align: center;
 }
 
 .page-subtitle {
@@ -36,6 +37,7 @@
     font-weight: 500;
     font-size: 50px;
     justify-content: center;
+    text-align: center;
 }
 
 .title {
@@ -75,8 +77,21 @@ section {
     padding: 96 0px;
 }
 
+.fas {
+    display:block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgb(251, 200, 61);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 47px;;
+    font-size: 30px;
+}
+
 i {
   color: #fbc531;
+  font-size: 30px;
 }
 /*Header*/
 
@@ -88,6 +103,10 @@ header.splash {
 
 .splash-inner {
     margin: auto;
+}
+
+.wrapper {
+    padding: 50px;
 }
 
 .wrapper h3 {
@@ -105,11 +124,6 @@ header.splash {
 
 /*Social media*/
 
-
-i {
-    font-size: 30px;
-    padding: 50px 0 0 0;
-}
 
 .media ul {
     display: flex;
@@ -136,8 +150,19 @@ i {
 
 @media (max-width: 767px) {
 
+.copyright {
+    align-items: center;
+    display: flex;
+}
 .wrapper {
     flex-direction: column;
+}
+
+footer {
+    display: flex;
+}
+footer div {
+    width: 33.33%
 }
 
 }
